@@ -1,4 +1,4 @@
-#!/usr/bin/env drush
+#!/usr/bin/env drush4
 
 $arg = drush_shift();
 drush_invoke('version', $arg);
